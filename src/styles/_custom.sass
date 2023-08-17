@@ -1,19 +1,290 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+$grisMedio: #E8E8E8
+$casiBlanco: #fafafa
+
+.bloque-texto-a.color-primario
+  background-color: $grisMedio
+
+.cajon.color-primario
+  background-color: rgba(0,188,212,.16)
+
+.w5_5rem
+  max-width: 5.5rem
+
+.accesibilidad
+  z-index: 10
+
+.cst
+  color: $color-sistema-texto !important
+
+.cs
+  color: $color-secundario !important
+
+.bcs
+  background-color: $color-secundario !important
+
+.cp
+  color: $color-primario !important
+
+.cac
+  color: $color-acento-contenido !important
+
+.cab
+  color: $color-acento-botones !important
+
+@media screen and ( min-width: 992px )  
+  .contenedor
+    margin: -18rem -3rem
+    padding: 18rem 3rem
+    z-index: 0
+    &__bbg1
+      background: url('../assets/curso/bbg1.svg')
+      background-position: bottom right
+      background-size: auto
+      background-repeat: no-repeat
+    &__bbg2
+      background: url('../assets/curso/bbg2.svg')
+      background-position: center center
+      background-size: auto
+      background-repeat: no-repeat
+      overflow: visible
+    &__bbg3
+      background: url('../assets/curso/bbg3.svg')
+      background-position: bottom center
+      background-size: auto
+      background-repeat: no-repeat
+      padding: 6rem 3rem 3rem
+      margin: -6rem -3rem -3rem
+    &__bbg4
+      background: url('../assets/curso/bbg4.svg')
+      background-position: bottom right
+      background-size: auto
+      background-repeat: no-repeat
+    &__bbg5
+      background: url('../assets/curso/bbg5.svg')
+      background-position: center center
+      background-size: fill
+      background-repeat: no-repeat
+      padding: 3rem 3rem
+      margin: 0 -3rem
+  .col-lg-4_5
+    width: 38%
+  .traslape1
+    padding: 4.5rem
+.traslape1
+  display: inline-flexbox
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    img
+      margin-left: 11.3%
+  .f-right
+    float: right
+    .contenedor3c
+      margin-left: -11.3%
+.traslape2
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    .contenedor3c
+      left: -138.3%
+  .f-right
+    float: right
+    img
+      margin-left: 69%
+
+@media screen and ( max-width: 991px )  
+  .contenedor
+    &__bbg1
+    &__bbg2
+    &__bbg3
+    &__bbg4
+    &__bbg5
+      background: url('../assets/curso/bbg5.svg')
+      padding: 3rem -3rem
+      margin: 0 -3rem
+  .traslape1,.traslape2
+    padding: 1rem 3rem
+    .col-z1
+      z-index: 1
+    .col-z2
+      z-index: 2
+    .f-left,.f-right
+      .contenedor3c
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        right: 0
+        top: -4rem
+      img
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        top: 0
+  .col-lg-4_5
+    width: 100%
+
+.contenedor3c
+  background: white
+  border-radius: 1.5rem 1.5rem 1.5rem 0
+  position: relative
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  margin-top: 1rem
+  &--color-primario
+    background-color: #CDEDFC
+
+.fcp
+  background-color: #81D4FA
+
+.text-right
+  text-align: right !important
+
+.tarjeta.color-secundario, .tarjeta--purpuraMedio
+  background-color: #E4DDFA !important
+
+.tarjeta.color-acento-contenido, .tarjeta--cac
+  background-color: #CDEDFC !important
+  .acordion__accion__btn--b
+    background-color: $color-acento-contenido
+    border: none !important
+    i
+      color: $white
+  
+.tarjeta  
+  &--color-primario
+    background-color: #CDEDFC
+
+.borad1
+  border-radius: 2rem 2rem 0 2rem
+  
+.borad2
+  border-radius: 2rem 2rem 2rem 0
+
+$lista1: rgba(126,94,227,0.1) 0%, rgba(129,212,250,0.1) 100%
+
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list)
+  background: -moz-linear-gradient($direction, $list)
+  background: -o-linear-gradient($direction, $list)
+  background: linear-gradient($direction, $list)
+
+.g1
+  @include gradient(180deg, $lista1)
+
+.noborad
+  .tarjeta-avatar-b
+    .tarjeta
+      border-radius: 0 !important
+
+.fcb
+  background-color: $casiBlanco
+  &--secundario
+    background: url('../assets/curso/t3/abcbg.svg') $casiBlanco
+    background-size: 5px
+    background-position: center right
+    background-repeat: no-repeat
+  &--primario
+    background: url('../assets/curso/t3/venbg.svg') $casiBlanco
+    background-size: 5px
+    background-position: center right
+    background-repeat: no-repeat
+
+.fcpbt
+  transition: .5s
+  border-top: solid 5px $color-acento-contenido
+  background-color: rgba(0,188,212,.16)
+  min-width: 291px
+  min-height: 291px
+.fcpbb
+  transition: .5s
+  border-bottom: solid 5px $color-acento-contenido
+  background-color: rgba(0,188,212,.16)
+  width: 291px
+  height: 291px
+.camhover
+  transition: .25s
+  transform: rotateZ(0deg)
+  .vis
+    filter: opacity(1)
+    position: relative
+    transition: .25s
+    z-index: 1
+  .hid
+    margin-top: -100%
+    filter: opacity(0)
+    position: relative
+    transition: .25s
+    z-index: 0
+  &:hover
+    transform: rotateZ(360deg)
+    .vis
+      filter: opacity(0)
+      z-index: 0
+    .hid
+      filter: opacity(1)
+      z-index: 1
+
+.bloque-texto-d.color-primario:before , .bloque-texto-b.color-primario:before 
+    background-color: #dff4fd;
+
+.tarjeta.color-acento-contenido * 
+    color: #12263F
 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
 
-  100%
-    transform: translateY(0px)
+// Tarjeta Hover ////////////////////
+.tarjeta-cyan
+  background-color: #CDEDFC
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #00BCD4
+    .tarjetaTxt
+      border-top: 7px solid #00BCD4
+
+.tarjeta-purpura
+  background-color: #E4DDFA
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #7E5EE3
+    .tarjetaTxt
+      border-top: 7px solid #7E5EE3
+
+
+$tarjeta-dimension: 300px
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension
+  height: $tarjeta-dimension
+  border-radius: 0    
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      width: $tarjeta-dimension
+      height: $tarjeta-dimension
+      padding: 2rem
+    .tarjetaImg     
+    .tarjetaTxt
+      text-align: center
+     
+
+  &:hover
+    .tarjetaContent
+      top: -($tarjeta-dimension)
+
