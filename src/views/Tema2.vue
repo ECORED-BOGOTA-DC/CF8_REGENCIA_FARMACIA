@@ -14,6 +14,10 @@
         p Una contización debe contener como mínimo los siguientes parámetros:
       .col-lg-5
         img(src='@/assets/curso/t2/f1.svg', alt='Medicamentos y bolsa de compras')
+    
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Figura 9
+      p <i>Ejemplo orden de compra</i>
     ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-right")
       template(v-slot:imagen)
         figure
