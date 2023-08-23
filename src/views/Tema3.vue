@@ -2,43 +2,45 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
       h1 Metodologías de programación
     p.mb-5 Partiendo de la lista de proveedores seleccionados, se procede a realizar la orden de compra que debe contener, como mínimo, los siguientes ítems:
+
+
     .row.align-items-center.mb-5.px-5
       .col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/t3/i1.png', alt='Hombre con libreta en la mano')
       .col-lg-8.tarjeta--color-primario.borad1.p-5(data-aos="fade-left")
-        ul.lista-ul
+        ul.lista-ul.fa-ul2
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Nombre del producto exacto, es decir, en genérico o comercial y la concentración.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Forma farmacéutica.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Cantidad en unidades.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Valor unitario.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Valor total.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Plazos de entrega.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Condiciones de pago (plazos con descuento financiero y/o de pago neto).
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Condiciones especiales (marcación, entregas parciales, etc.)
     p.mb-5 Las órdenes de compra pueden ser físicas o digitales, y se deben guardar para luego compararlas con las facturas de venta cuando lleguen los pedidos.
     Separador
-    #t_3_1.titulo-segundo
+    #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Metodología de compras
     p.mb-5 Para un adecuado plan de compras, es necesario tener presente las siguientes variables que se sujeten a las necesidades de la institución.
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--purpuraMedio")
@@ -87,7 +89,7 @@
           p.text-center <b>Aplicando la fórmula:</b>
           p.text-center <b>PR = 106 + (152 X 0,7) = 212<br>PR = 2 X 106 = 212</b>
     Separador
-    #t_3_2.titulo-segundo
+    #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Priorización de la compra
     .row.traslape3.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-3.ms-auto.p-0
@@ -103,19 +105,19 @@
     p.mb-5 Esta clasificación se basa en la urgencia con la que se necesite un medicamento, de tal manera que nunca falten los productos vitales para los pacientes.
     .col-lg-8.mx-auto.noborad(data-aos="fade-down-right")
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/ven-v.svg' alt='V')
+        img(src='@/assets/curso/t3/ven-v.svg' alt='V').imgven
         .tarjeta.fcb.fcb--primario
           .p-4
             h2 Vitales:
             p Son medicamentos indispensables o vitales para la vida de los pacientes, como por ejemplo, oxígeno. Deben estar siempre disponibles, porque su escasez puede ocasionar graves consecuencias o incluso la muerte del paciente.
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/ven-e.svg' alt='E')
+        img(src='@/assets/curso/t3/ven-e.svg' alt='E').imgven
         .tarjeta.fcb.fcb--primario
           .p-4
             h2 Esenciales:
             p Su falta también puede ocasionar problemas graves a la salud o la muerte del paciente, pero con menor incidencia que los medicamentos anteriores. Normalmente hacen parte de este grupo, los productos para enfermedades como por ejemplo, los antihipertensivos.
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/ven-n.svg' alt='N')
+        img(src='@/assets/curso/t3/ven-n.svg' alt='N').imgven
         .tarjeta.fcb.fcb--primario
           .p-4
             h2 No esenciales:
@@ -124,17 +126,17 @@
     p.mb-5 Esta clasificación está basada en los costos de los productos. Es un acto de carácter administrativo, porque clasifica los productos por orden de inversión en: costosos, medianamente costosos y económicos, con el fin de reducir costos e incrementar la rentabilidad.
     .col-lg-8.mx-auto.noborad(data-aos="fade-down-right")
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/abc-a.svg' alt='A')
+        img(src='@/assets/curso/t3/abc-a.svg' alt='A').imgven
         .tarjeta.fcb.fcb--secundario
           .p-4
             p Estos productos son los más costosos en el inventario y se encuentran en menor cantidad, abarcando generalmente el 20 % del inventario.
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/abc-b.svg' alt='B')
+        img(src='@/assets/curso/t3/abc-b.svg' alt='B').imgven
         .tarjeta.fcb.fcb--secundario
           .p-4
             p Estos productos son menos costosos que los A y abarcan el 30 % del inventario.
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/abc-c.svg' alt='C')
+        img(src='@/assets/curso/t3/abc-c.svg' alt='C').imgven
         .tarjeta.fcb.fcb--secundario
           .p-4
             p Son los productos más económicos y abarcan el 50 % del total del inventario.

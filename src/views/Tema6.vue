@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
       h1 Fuentes de abastecimiento
@@ -17,7 +17,7 @@
               br
               i.fas.fa-quote-right.cac
             p.text-center “El conjunto de procedimientos y normas destinadas a garantizar el almacenamiento, transporte y distribución adecuada de materiales y productos farmacéuticos, a partir de la liberación de que son objeto después del proceso de fabricación, de manera que estos conserven la naturaleza y calidad deseadas cuando lleguen al consumidor final”
-            h5.text-right -(Vera, H., 2009, p.2)
+            h5.text-right -Vera, H., 2009, p.2
       p Para ampliar la información sobre este tema, visite el enlace que se encuentra en el material complementario.
       .col-lg-6
         a.anexo(:href="obtenerLink('#/complementario')")

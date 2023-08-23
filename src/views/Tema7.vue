@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
       h1 Base de datos
@@ -19,22 +19,22 @@
       .col-lg-4
         img(src='@/assets/curso/t7/f1.svg', alt='Personas con medicamentos')
       .col-lg-8
-        ul.lista-ul
+        ul.lista-ul.fa-ul2
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Bases de datos jerárquicas.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Bases de datos relacionales: son los modelos más utilizados en la actualidad.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p Bases de datos orientadas a objetos. 
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p.mb-0 Toda base de datos relacional cuenta con unas estructuras elementales para poder operar con los datos. Estas estructuras son las tablas, las consultas, los formularios y los informes.
             i.fas.fa-quote-right
-            h6.text-right -(López, G.M, 2015)
+            h6.text-right  -López, G.M, 2015
 </template>
 
 <script>

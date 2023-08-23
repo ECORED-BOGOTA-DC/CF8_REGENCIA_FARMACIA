@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 9
       h1 Catálogos de productos y servicios
@@ -11,31 +11,33 @@
       .cajon.color-primario.p-4.mb-4
         p.mb-0 El valor de estos depende en gran parte de la forma en que se presentan los materiales que ofrecen y su utilización, así como sus características y especificaciones.
     p.mb-5 Existen catálogos de diferentes procedencias; entre ellos tenemos: de proveedores, de comisionistas y de maquinaria y/o equipo.
-    #t_9_1.titulo-segundo
+
+    #t_9_1.titulo-segundo.color-acento-contenido
       h2 9.1 Métodos de clasificación de servicios y de producto
     .row.align-items-center.mb-5(data-aos="fade-right").px-5
       .col-lg-4
         img(src="@/assets/curso/t9/i1.png" alt="Mujer aplicando crema en su mano")
       .col-lg-8
         p.mb-5 La clasificación en la que el área de compras se debe basar es la siguiente:
-        ul.lista-ul
+        ul.lista-ul.fa-ul2
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p <b>Materia prima y componentes:</b> cuando la empresa es manufacturera. 
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p <b>Producto:</b> cuando la empresa es comercializadora.
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p <b>Artículo:</b> conocido también como componente. 
           li.mb-0
-            i.fas.fa-atom.cs.me-4
+            i.fas.fa-atom.cs
             p <b>Mercancía:</b> su razón principal es la de insumos, debido a que estos son usados en la fabricación o ensamble de los productos terminados de una empresa, aquellos que necesita la empresa para funcionar. 
     p.mb-5 Todos estos bienes son susceptibles de comprarse y provocan que se establezca una relación entre comprador y vendedor, en donde los dos personajes deben llevarse, a partes iguales, un beneficio.
+    
     Separador
-    #t_9_2.titulo-segundo
+    #t_9_2.titulo-segundo.color-acento-contenido
       h2 9.2 Técnicas de estimación de precios
-    p.mb-5 Según Sangri Coral, A. (2016 pp. 18-19), “esta variable, en algunas ocasiones es la más importante; el precio, ya sea por unidad o por grandes volúmenes, debe ser #[strong “el precio exacto”] a fin que se efectúen las compras siguientes, y debe basarse en los siguientes términos:
+    p.mb-5 Según Sangri Coral, A. (2016 pp. 18-19), esta variable, en algunas ocasiones es la más importante; el precio, ya sea por unidad o por grandes volúmenes, debe ser #[strong “el precio exacto”] a fin que se efectúen las compras siguientes, y debe basarse en los siguientes términos:
     .row(data-aos="fade-left")
       .col-lg-8
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--cac")

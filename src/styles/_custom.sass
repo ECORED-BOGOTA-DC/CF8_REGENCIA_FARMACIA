@@ -183,6 +183,14 @@ $lista1: rgba(126,94,227,0.1) 0%, rgba(129,212,250,0.1) 100%
     .tarjeta
       border-radius: 0 !important
 
+.imgven
+  width: 40% !important
+  @media screen and ( max-width: 991px )
+    width: 100%
+
+
+
+
 .fcb
   background-color: $casiBlanco
   &--secundario
@@ -287,4 +295,24 @@ $tarjeta-dimension: 300px
   &:hover
     .tarjetaContent
       top: -($tarjeta-dimension)
+
+.fa-ul2
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+    &:before
+      position: relative
+      margin-right: 7PX
+      font-size: 1.4rem
+
+.tarjeta-morada
+  background-color: #E4DDFA
+  height: 270px !important
+  @media screen and ( max-width: 991px )
+    height: auto  
 

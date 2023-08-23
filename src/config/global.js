@@ -144,13 +144,18 @@ export default {
       },
     ],
     subMenu: [
-      /*
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },*/
+      },
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -180,18 +185,20 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Definición de políticas',
       referencia:
-        'Dirección General de Planificación del Trabajo – Departamento de Desarrollo Organizacional. (2019). Guía para la elaboración de políticas institucionales.',
+        'Dirección General de Planificación del Trabajo – Departamento de Desarrollo Organizacional. (2019). <i>Guía para la elaboración de políticas institucionales.</i>',
       tipo: 'PDF',
-      descarga: 'downloads/guia_politicas_institucionales_MTSS.pdf',
+      link:
+        'https://www.mtss.go.cr/perfiles/lineamientos_circulares_directrices_politicas_internas/lineamientos-circulares-directrices-politicas%20internas/guia_politicas_institucionales_MTSS.pdf',
     },
     {
-      tema: '',
+      tema: 'Fuentes de abastecimiento',
       referencia:
-        'Vera, H. (2009). Manual de buenas prácticas en la cadena de abastecimiento de medicamentos.',
+        'Vera, H. (2009). <i>Manual de buenas prácticas en la cadena de abastecimiento de medicamentos.</i>',
       tipo: 'PDF',
-      descarga: 'downloads/Manual-Buenas-Practicas-Abast.pdf',
+      link:
+        'http://farmacus.com.co/wp-content/uploads/2016/07/Manual-Buenas-Practicas-Abast..pdf ',
     },
   ],
   glosario: [
@@ -207,7 +214,7 @@ export default {
     },
     {
       termino: 'COFYTE',
-      significado: 'Comité de Farmacia y Terapéutica.',
+      significado: ' Comité de Farmacia y Terapéutica.',
     },
     {
       termino: 'Compra',
@@ -292,15 +299,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdró',
+          cargo: 'Responsable de línea de producció',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -308,10 +315,39 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Lina Marcela Ayala Pardo',
+          cargo: 'Experta Temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
+        },
+        {
+          nombre: 'Oscar Meza',
+          cargo: 'Experta Temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo:
+            'Diseñadora Instruccional - Revisora Metodológica y Pedagógica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
+        },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuación instrucciona',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -319,51 +355,57 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarría Orozco',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
+        //{
+        //nombre: 'Lady Adriana Ariza Luque',
+        //cargo: 'Animación y Producción audiovisual',
+        //centro:
+        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        //},
+        //{
+        //nombre: 'Laura Gisselle Murcia Pardo',
+        //cargo: 'Animación y producción audiovisual',
+        //centro:
+        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        //},
+        //{
+        //nombre: 'Ernesto Navarro Jaimes',
+        //cargo: 'Animación y producción audiovisual',
+        //centro:
+        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },

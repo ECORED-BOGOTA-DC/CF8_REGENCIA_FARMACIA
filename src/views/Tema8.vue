@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
       h1 Acuerdos comerciales y reglamentación
@@ -67,87 +67,91 @@
 
     p.mb-5 Ahora conoceremos las concertaciones y alianzas con relación al precio:
     
-    
-    PasosA.color-acento-botones.mb-5(tipo="n")
-      .row
-        .col-auto
-          p La concertación emerge entre el comprador y el proveedor, donde se definen las condiciones de la compraventa; entre estas condiciones se destacan:
-          ul.lista-ul
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Cantidad y especificaciones.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Precio.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Garantía.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Fecha de entrega.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Fecha de pago.
-      .row
-        .col-auto
-          p Este convenio se establece por escrito; puede decirse que es un acuerdo entre comprador y vendedor, y donde se estipulan entre otras: 
-          ul.lista-ul
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p La compraventa y el precio.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Las condiciones de pago.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Las condiciones de entrega y el lugar.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p La garantía.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p La cantidad de la compra.
-      .row
-        .col-auto
-          p Para que este convenio tenga validez, se necesita: 
-          ul.lista-ul
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Esté firmado por un funcionario de la empresa y el proveedor o el vendedor.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Se realice conforme a la ley.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Se estipulen responsabilidades por ambos firmantes.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Se establezcan penalidades, si hay fallas en lo solicitado.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Otros acuerdos.
-      .row
-        .col-auto
-          p Tipos de convenios de acuerdo con el precio: 
-          ul.lista-ul
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Precio.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Costo adicional.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Abierto.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Para cada artículo o por cada partida.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Adicional.
-            li.mb-0
-              i.fas.fa-atom.cs.me-4
-              p Con entregas parciales y pagos por cada entrega.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10    
+        PasosA.color-acento-botones.mb-5(tipo="n")
+          .row
+            .col-auto
+              p La concertación emerge entre el comprador y el proveedor, donde se definen las condiciones de la compraventa; entre estas condiciones se destacan:
+              ul.lista-ul.fa-ul2
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Cantidad y especificaciones.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Precio.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Garantía.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Fecha de entrega.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Fecha de pago.
+          .row
+            .col-auto
+              p.text-start Este convenio se establece por escrito; puede decirse que es un acuerdo entre comprador y vendedor, y donde se estipulan entre otras: 
+              ul.lista-ul.fa-ul2
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | La compraventa y el precio.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Las condiciones de pago.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Las condiciones de entrega y el lugar.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | La garantía.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | La cantidad de la compra.
+          .row
+            .col-auto
+              p Para que este convenio tenga validez, se necesita: 
+              ul.lista-ul.fa-ul2
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Esté firmado por un funcionario de la empresa y el proveedor o el vendedor.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Se realice conforme a la ley.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Se estipulen responsabilidades por ambos firmantes.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Se establezcan penalidades, si hay fallas en lo solicitado.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Otros acuerdos.
+          .row
+            .col-auto
+              p.text-start Tipos de convenios de acuerdo con el precio: 
+              ul.lista-ul.fa-ul2
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Precio.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Costo adicional.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Abierto.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Para cada artículo o por cada partida.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Adicional.
+                li.mb-0
+                  i.fas.fa-atom.cs
+                  | Con entregas parciales y pagos por cada entrega.
+
+
+
 </template>
 
 <script>
