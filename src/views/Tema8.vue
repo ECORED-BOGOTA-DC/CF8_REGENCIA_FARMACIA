@@ -2,14 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Acuerdos comerciales y reglamentación
-    p Los acuerdos o convenios surgen entre el comprador y el proveedor, donde se establecen, estipulan y/o pactan las especificaciones, condiciones, restricciones y/o concesiones, para la compraventa de los bienes que necesita o requiere la empresa.
-    p.mb-5 A continuación, se mencionan las características de estos acuerdos:
-
-    .row.justify-content-center.mb-5
+    p(data-aos="fade-right") Los acuerdos o convenios surgen entre el comprador y el proveedor, donde se establecen, estipulan y/o pactan las especificaciones, condiciones, restricciones y/o concesiones, para la compraventa de los bienes que necesita o requiere la empresa.
+    p.mb-5(data-aos="fade-right") A continuación, se mencionan las características de estos acuerdos:
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-auto.mb-4
         .tarjeta.tarjeta-container.tarjeta-cyan
           .tarjetaContent
@@ -65,11 +64,10 @@
             .tarjetaTxt
               p.mb-0 De acuerdo con las políticas de la empresa compradora, esta es la que impone hora y día para recepción de lo comprado; solo en casos de extrema urgencia, esta condición no se respeta.
 
-    p.mb-5 Ahora conoceremos las concertaciones y alianzas con relación al precio:
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10    
-        PasosA.color-acento-botones.mb-5(tipo="n")
+    p.mb-5(data-aos="fade-right") Ahora conoceremos las concertaciones y alianzas con relación al precio:
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        PasosA.color-acento-botones(tipo="n")(data-aos="fade-left")
           .row
             .col-auto
               p La concertación emerge entre el comprador y el proveedor, donde se definen las condiciones de la compraventa; entre estas condiciones se destacan:
@@ -149,8 +147,6 @@
                 li.mb-0
                   i.fas.fa-atom.cs
                   | Con entregas parciales y pagos por cada entrega.
-
-
 
 </template>
 

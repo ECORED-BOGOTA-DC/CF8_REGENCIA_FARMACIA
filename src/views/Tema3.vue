@@ -2,16 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Metodologías de programación
-    p.mb-5 Partiendo de la lista de proveedores seleccionados, se procede a realizar la orden de compra que debe contener, como mínimo, los siguientes ítems:
-
-
+    p.mb-5(data-aos="fade-right") Partiendo de la lista de proveedores seleccionados, se procede a realizar la orden de compra que debe contener, como mínimo, los siguientes ítems:
     .row.align-items-center.mb-5.px-5
-      .col-lg-4(data-aos="fade-right")
-        img(src='@/assets/curso/t3/i1.png', alt='Hombre con libreta en la mano')
+      .col-lg-4(data-aos="fade-right").mb-4.mb-lg-0
+        img(src='@/assets/curso/t3/i1.png', style="width:350px" ,alt='Hombre con libreta en la mano').m-auto
       .col-lg-8.tarjeta--color-primario.borad1.p-5(data-aos="fade-left")
         ul.lista-ul.fa-ul2
           li.mb-0
@@ -38,12 +36,12 @@
           li.mb-0
             i.fas.fa-atom.cs
             p Condiciones especiales (marcación, entregas parciales, etc.)
-    p.mb-5 Las órdenes de compra pueden ser físicas o digitales, y se deben guardar para luego compararlas con las facturas de venta cuando lleguen los pedidos.
+    p.mb-0(data-aos="fade-right") Las órdenes de compra pueden ser físicas o digitales, y se deben guardar para luego compararlas con las facturas de venta cuando lleguen los pedidos.
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Metodología de compras
-    p.mb-5 Para un adecuado plan de compras, es necesario tener presente las siguientes variables que se sujeten a las necesidades de la institución.
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--purpuraMedio")
+    p.mb-5(data-aos="fade-right") Para un adecuado plan de compras, es necesario tener presente las siguientes variables que se sujeten a las necesidades de la institución.
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--purpuraMedio")(data-aos="fade-down")
       .row(titulo="Consumo promedio (CPM)")
         p Cantidad del medicamento o dispositivo médico que se consume en un periodo de días, semanas o meses, aunque por lo general se toman los datos de seis meses, arrojados de los consumos obtenidos, ya sea por consumo histórico o por perfil epidemiológico.
         .col-lg-4.mx-auto.mb-4
@@ -91,57 +89,64 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Priorización de la compra
-    .row.traslape3.align-items-center.mb-5(data-aos="fade-up")
-      .col-lg-3.ms-auto.p-0
-        img(src='@/assets/curso/t3/i2.jpg', alt='brister')
-      .col-lg-4.p-5.fcp.fcp--mobile
+    .row.traslape3.align-items-center.mb-5
+      .col-lg-3.ms-auto.p-0(data-aos="fade-right")
+        img(src='@/assets/curso/t3/i2.jpg', style="width:350px", alt='brister').m-auto
+      .col-lg-4.p-5.fcp.fcp--mobile(data-aos="fade-left")
         .mt-3
         p Existen diferentes metodologías para adquirir los productos farmacéuticos garantizando el cumplimiento de la cadena de suministros. 
         p Es importante tener presente que, en ocasiones, no es posible adquirir todos los productos por falta de presupuesto, lo que implica establecer prioridades al comprar y así obtener los productos más necesarios.
         p.mb-0 Para definir propiedades se cuenta con dos métodos:
-      .col-lg-3.me-auto.p-0
-        img(src='@/assets/curso/t3/i3.jpg', alt='carrito con medicamentos')
+      .col-lg-3.me-auto.p-0(data-aos="fade-down")
+        img(src='@/assets/curso/t3/i3.jpg', style="width:350px" , alt='carrito con medicamentos').m-auto
     h3 Clasificación VEN
     p.mb-5 Esta clasificación se basa en la urgencia con la que se necesite un medicamento, de tal manera que nunca falten los productos vitales para los pacientes.
-    .col-lg-8.mx-auto.noborad(data-aos="fade-down-right")
+    .col-lg-8.mx-auto.noborad(data-aos="fade-right")
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/ven-v.svg' alt='V').imgven
-        .tarjeta.fcb.fcb--primario
-          .p-4
-            h2 Vitales:
-            p Son medicamentos indispensables o vitales para la vida de los pacientes, como por ejemplo, oxígeno. Deben estar siempre disponibles, porque su escasez puede ocasionar graves consecuencias o incluso la muerte del paciente.
+        .tarjeta-avatar-b__img
+          img(src='@/assets/curso/t3/ven-v.svg' alt='V')
+        .tarjeta.tarjeta--azul
+          .py-5.px-4
+            p #[b Vitales]
+            p.mb-0 Son medicamentos indispensables o vitales para la vida de los pacientes, como por ejemplo, oxígeno. Deben estar siempre disponibles, porque su escasez puede ocasionar graves consecuencias o incluso la muerte del paciente.
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/ven-e.svg' alt='E').imgven
-        .tarjeta.fcb.fcb--primario
-          .p-4
-            h2 Esenciales:
-            p Su falta también puede ocasionar problemas graves a la salud o la muerte del paciente, pero con menor incidencia que los medicamentos anteriores. Normalmente hacen parte de este grupo, los productos para enfermedades como por ejemplo, los antihipertensivos.
+        .tarjeta-avatar-b__img
+          img(src='@/assets/curso/t3/ven-e.svg' alt='E')
+        .tarjeta.tarjeta--azul
+          .py-5.px-4
+            p #[b Esenciales]
+            p.mb-0 Su falta también puede ocasionar problemas graves a la salud o la muerte del paciente, pero con menor incidencia que los medicamentos anteriores. Normalmente hacen parte de este grupo, los productos para enfermedades como por ejemplo, los antihipertensivos.
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/ven-n.svg' alt='N').imgven
-        .tarjeta.fcb.fcb--primario
-          .p-4
-            h2 No esenciales:
-            p Son medicamentos con baja frecuencia de uso, no son necesarios o vitales para la vida de los pacientes, por lo que su ausencia no significa agravar o generar problemas de salud. Ejemplo: suplementos dietarios.
+        .tarjeta-avatar-b__img
+          img(src='@/assets/curso/t3/ven-n.svg' alt='N')
+        .tarjeta.tarjeta--azul
+          .py-5.px-4
+            p #[b No esenciales]
+            p.mb-0 Son medicamentos con baja frecuencia de uso, no son necesarios o vitales para la vida de los pacientes, por lo que su ausencia no significa agravar o generar problemas de salud. Ejemplo: suplementos dietarios.
     h3 Clasificación ABC o PARETO
-    p.mb-5 Esta clasificación está basada en los costos de los productos. Es un acto de carácter administrativo, porque clasifica los productos por orden de inversión en: costosos, medianamente costosos y económicos, con el fin de reducir costos e incrementar la rentabilidad.
-    .col-lg-8.mx-auto.noborad(data-aos="fade-down-right")
+    p.mb-5(data-aos="fade-right") Esta clasificación está basada en los costos de los productos. Es un acto de carácter administrativo, porque clasifica los productos por orden de inversión en: costosos, medianamente costosos y económicos, con el fin de reducir costos e incrementar la rentabilidad.
+    .col-lg-8.mx-auto(data-aos="fade-right")
+      .tarjeta-avatar-b.mb-4
+        .tarjeta-avatar-b__img
+          img(src='@/assets/curso/t3/abc-a.svg' alt='A')
+        .tarjeta.tarjeta--azul
+          .py-5.px-4
+            p.mb-0 Estos productos son los más costosos en el inventario y se encuentran en menor cantidad, abarcando generalmente el 20 % del inventario.
+      .tarjeta-avatar-b.mb-4
+        .tarjeta-avatar-b__img
+          img(src='@/assets/curso/t3/abc-b.svg' alt='B')
+        .tarjeta.tarjeta--azul
+          .py-5.px-4
+            p.mb-0 Estos productos son menos costosos que los A y abarcan el 30 % del inventario.
       .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/abc-a.svg' alt='A').imgven
-        .tarjeta.fcb.fcb--secundario
-          .p-4
-            p Estos productos son los más costosos en el inventario y se encuentran en menor cantidad, abarcando generalmente el 20 % del inventario.
-      .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/abc-b.svg' alt='B').imgven
-        .tarjeta.fcb.fcb--secundario
-          .p-4
-            p Estos productos son menos costosos que los A y abarcan el 30 % del inventario.
-      .tarjeta-avatar-b.mb-5
-        img(src='@/assets/curso/t3/abc-c.svg' alt='C').imgven
-        .tarjeta.fcb.fcb--secundario
-          .p-4
-            p Son los productos más económicos y abarcan el 50 % del total del inventario.
+        .tarjeta-avatar-b__img
+          img(src='@/assets/curso/t3/abc-c.svg' alt='C')
+        .tarjeta.tarjeta--azul
+          .py-5.px-4
+            p.mb-0 Son los productos más económicos y abarcan el 50 % del total del inventario.
       .cajon.color-secundario.p-4
         p.mb-0 Cabe aclarar que la unión de ambos métodos da muy buenos resultados, tanto de inventario como de costos.
+
 </template>
 
 <script>

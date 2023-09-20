@@ -1,3 +1,19 @@
+.banner-principal__row .banner-principal__img
+  width: 400px
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: relative
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.tarjeta--azul
+  background-color: #fafafa
+  border-radius: 25px !important
+  
 $grisMedio: #E8E8E8
 $casiBlanco: #fafafa
 
@@ -33,8 +49,6 @@ $casiBlanco: #fafafa
 
 @media screen and ( min-width: 992px )  
   .contenedor
-    margin: -18rem -3rem
-    padding: 18rem 3rem
     z-index: 0
     &__bbg1
       background: url('../assets/curso/bbg1.svg')
@@ -61,11 +75,9 @@ $casiBlanco: #fafafa
       background-repeat: no-repeat
     &__bbg5
       background: url('../assets/curso/bbg5.svg')
-      background-position: center center
-      background-size: fill
+      background-size: cover
+      margin-inline: -3rem
       background-repeat: no-repeat
-      padding: 3rem 3rem
-      margin: 0 -3rem
   .col-lg-4_5
     width: 38%
   .traslape1
@@ -157,7 +169,7 @@ $casiBlanco: #fafafa
     i
       color: $white
   
-.tarjeta  
+.tarjeta
   &--color-primario
     background-color: #CDEDFC
 
@@ -177,11 +189,6 @@ $lista1: rgba(126,94,227,0.1) 0%, rgba(129,212,250,0.1) 100%
 
 .g1
   @include gradient(180deg, $lista1)
-
-.noborad
-  .tarjeta-avatar-b
-    .tarjeta
-      border-radius: 0 !important
 
 .imgven
   width: 40% !important

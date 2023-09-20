@@ -172,6 +172,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/331502_CF08_DU.zip',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -304,10 +309,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Liliana Victoria Morales Gualdró',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producció',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -316,38 +321,38 @@ export default {
       autores: [
         {
           nombre: 'Lina Marcela Ayala Pardo',
-          cargo: 'Experta Temática',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
+          cargo: 'Experta temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Oscar Meza',
-          cargo: 'Experta Temática',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
+          cargo: 'Experto temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo:
-            'Diseñadora Instruccional - Revisora Metodológica y Pedagógica',
+            'Diseñadora instruccional - Revisora metodológica y pedagógica',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Nelly Parra Guarín',
-          cargo: 'Adecuación instrucciona',
+          cargo: 'Adecuación instruccional',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Metodología para la formación virtual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -358,32 +363,32 @@ export default {
           nombre: 'Jesús Antonio Vecino Valero',
           cargo: 'Diseño web',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Manuel Felipe Echavarría Orozco',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollo fullstack',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
-        //{
-        //nombre: 'Lady Adriana Ariza Luque',
-        //cargo: 'Animación y Producción audiovisual',
-        //centro:
-        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        //},
-        //{
-        //nombre: 'Laura Gisselle Murcia Pardo',
-        //cargo: 'Animación y producción audiovisual',
-        //centro:
-        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        //},
-        //{
-        //nombre: 'Ernesto Navarro Jaimes',
-        //cargo: 'Animación y producción audiovisual',
-        //centro:
-        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        //},
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
       ],
     },
     {
@@ -393,19 +398,20 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Leyson Fabián Castaño Pérez',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
