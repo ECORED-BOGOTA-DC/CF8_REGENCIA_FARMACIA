@@ -192,18 +192,10 @@ export default {
     {
       tema: 'Definición de políticas',
       referencia:
-        'Dirección General de Planificación del Trabajo – Departamento de Desarrollo Organizacional. (2019). <i>Guía para la elaboración de políticas institucionales.</i>',
+        'Dirección de planificación Institucional – Departamento de Panificación Institucional y Sectorial. (2022). <em>Guía para la elaboración de políticas institucionales</em>.',
       tipo: 'PDF',
       link:
         'https://www.mtss.go.cr/perfiles/lineamientos_circulares_directrices_politicas_internas/lineamientos-circulares-directrices-politicas%20internas/guia_politicas_institucionales_MTSS.pdf',
-    },
-    {
-      tema: 'Fuentes de abastecimiento',
-      referencia:
-        'Vera, H. (2009). <i>Manual de buenas prácticas en la cadena de abastecimiento de medicamentos.</i>',
-      tipo: 'PDF',
-      link:
-        'http://farmacus.com.co/wp-content/uploads/2016/07/Manual-Buenas-Practicas-Abast..pdf ',
     },
   ],
   glosario: [
@@ -259,13 +251,13 @@ export default {
     },
     {
       referencia:
-        'Líder de emprendimiento. (22 de marzo del 2021). ¿Qué son los proveedores y cuales son sus tipos?',
+        'Líder de emprendimiento. (22 de marzo del 2021). ¿Qué son los proveedores y cuáles son sus tipos?',
       link:
         'https://www.liderdelemprendimiento.com/logistica-y-distribucion/que-son-los-proveedores/',
     },
     {
       referencia:
-        'MINISTERIO DE PROTECCIÓN SOCIAL. (2007). Por la cual se determina el modelo de gestión del servicio farmacéutico, se adopta el manual de condiciones esenciales y procedimientos de dicho servicio y se dictan otras disposiciones. Resolución número 1403.',
+        'MINISTERIO DE PROTECCIÓN SOCIAL. (2007). Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. Resolución número 1403.',
       link:
         'https://www.redjurista.com/Documents/resolucion_1403_de_2007_ministerio_de_la_proteccion_social.aspx#/',
     },
@@ -283,12 +275,6 @@ export default {
     },
     {
       referencia:
-        'Unab. (S.F). Adquisición de medicamentos y dispositivos médicos.',
-      link:
-        'http://unab.edupol.com.co/pluginfile.php/7206/mod_resource/content/1/UNIDAD_3 Adquisici%C3%B3n de medicamentos y dispositivos m%C3%A9dicos.pdf',
-    },
-    {
-      referencia:
         'Valentín López, G. M. (2015). Aplicaciones informáticas de bases de datos relacionales: Access 2010.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50762?page=17',
@@ -296,7 +282,7 @@ export default {
     {
       referencia: 'Vera, H. (2009). Buenas prácticas de abastecimiento.',
       link:
-        'http://farmacus.com.co/wp-content/uploads/2016/07/Manual-Buenas-Practicas-Abast..pdf',
+        'https://es.scribd.com/doc/23347297/MANUAL-DE-BUENAS-PRACTICAS-DE-ABASTECIMIENTOS',
     },
   ],
   creditos: [

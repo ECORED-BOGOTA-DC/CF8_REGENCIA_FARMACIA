@@ -123,7 +123,7 @@
           p La droguería Semana realiza el cálculo de consumo histórico para el Losartan de 100 mg. Este ha tenido un consumo histórico de 800 tabletas; las pérdidas evitables son de 20 tabletas y el inventario es de 50 tabletas.
           p <b>Aplicando la fórmula:</b>
           p.text-center <b>Cantidad necesaria</b> = consumo + pérdidas evitables – inventario
-          p.text-center <b>Cantidad necesaria:</b> 800 + 20 – 50 = 770 tabletas 
+          p.text-center <b>Cantidad necesaria=</b> 800 + 20 – 50 = 770 tabletas 
       .row(titulo="Consumo ajustado = consumo x periodo de cálculo / Periodo con existencias")
         p Otra situación que se debe tener presente es, cuando se exponga el agotamiento de algún medicamento. En este caso, solo se tienen en cuenta los periodos con existencia.
         .col-lg-5.mx-auto.mb-4
@@ -172,17 +172,23 @@
       h2 1.2	Proceso de adquisición de medicamentos y dispositivos médicos
     p(data-aos="fade-right") La Resolución 1403 del 2007 (pp. 43-44), define el proceso de adquisición como: 
     p.mb-5(data-aos="fade-right") El conjunto de actividades que realiza la institución o establecimiento farmacéutico, que permite adquirir los medicamentos y dispositivos médicos que han sido incluidos en el plan de compras, con el fin de tenerlos disponibles para la satisfacción de las necesidades de sus usuarios, beneficiarios o destinatarios.
-    .row.traslape2.mb-0.mb-lg-4
-      .col-lg-7.col-z1.f-right(data-aos="fade-left")
-        img(src="@/assets/curso/t1/i5.jpg" alt="Carrito de compras con medicamentos")
-      .col-lg-4_5.col-z2.f-left(data-aos="fade-right")
-        .contenedor3c.p-4.contenedor3c--color-primario
+    <br><br>
+    
+    .row.traslape2.align-items-center.mb-0.mb-lg-4
+      .col-lg-1.d-lg-flex.d-none
+      .col-lg-6.col-z2(data-aos="fade-right")
+        .bloque-texto-e.tarjeta.BG01.p-4
           h4.text-center ¿Qué es una compra?
-            br
-            br
+          .bloque-texto-e__texto
+            i.fas.fa-quote-left.cac
+            p.text-center El término “compra” es sinónimo de adquirir, y su importancia radica en su vitalidad para el éxito de la Institución, ya que define la efectividad de la gestión de los productos adquiridos. Las compras bien planeadas tiene objetivos claros, como abastecer el servicio farmacéutico con productos de la mejor calidad y al menor precio, reducir costos, optimizar los tiempos de entrega a las áreas que dependan de él, cumplir con las responsabilidades en cuanto a precios, proveedores, pedidos, inspecciones de lo adquirido y actividades que involucren otras áreas; controlar todos los convenios que sean necesarios para el financiamiento que otorgue el proveedor, controlar los tratados comerciales con los proveedores y capacitarse continuamente, lo que al final, para la Institución, dará como resultado ahorros en el efectivo de su liquidez y en la fluidez del capital.
             i.fas.fa-quote-right.cac
-          p.text-center El término “compra” es sinónimo de adquirir, y su importancia radica en su vitalidad para el éxito de la Institución, ya que define la efectividad de la gestión de los productos adquiridos. Las compras bien planeadas tiene objetivos claros, como abastecer el servicio farmacéutico con productos de la mejor calidad y al menor precio, reducir costos, optimizar los tiempos de entrega a las áreas que dependan de él, cumplir con las responsabilidades en cuanto a precios, proveedores, pedidos, inspecciones de lo adquirido y actividades que involucren otras áreas; controlar todos los convenios que sean necesarios para el financiamiento que otorgue el proveedor, controlar los tratados comerciales con los proveedores y capacitarse continuamente, lo que al final, para la Institución, dará como resultado ahorros en el efectivo de su liquidez y en la fluidez del capital.
-          h5.text-right -Sangri Coral, A., 2016
+          .bloque-texto-e__autor         
+            h5.text-right -Sangri Coral, A., 2016
+      .col-lg-5.img-01.col-z1(data-aos="fade-left")
+        img(src="@/assets/curso/t1/i5.jpg" alt="Carrito de compras con medicamentos")
+      
+    <br><br>
     .row.align-items-center.px-5.justify-content-between(data-aos="fade-right")
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         img(src="@/assets/curso/t1/i6.png", style="width:400px", alt="Mujer con laptop").m-auto
@@ -391,7 +397,7 @@
         h5 Figura 7.
         span Criterios para la valoración de proveedores
       figure
-        img(src="@/assets/curso/t1/f29.svg" alt="Criterios para la valoración de proveedores").mb-4
+        img(src="@/assets/curso/t1/f29.svg" alt="Muestra los Criterios para la valoración de proveedores, desde la atención del servicio, manejo de devoluciones, cumplimiento de especificaciones especificas técnicas, cumplimiento de características fisicoquímicas y microbiológicas, cumplimiento de especificaciones administrativas, oportunidad de la entrega e informe de la situación del pedido.").mb-4
         figcaption Nota. Sena(2021). Adaptado de: <a href="http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf" target="_blank">cendi.edu.co</a>
     .col-lg-10.mx-auto(data-aos="fade-left")
       .cajon.color-secundario.p-4

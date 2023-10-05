@@ -67,16 +67,16 @@
           p Este cálculo representa la cantidad mínima suficiente de producto que debe existir en el inventario, mientras llega un nuevo pedido, con el fin de evitar agotamientos que generen demanda insatisfecha.
           p.text-center <b>NmE = CPM X TR (expresado en meses)</b>
           p <b>Ejemplo práctico: partiendo de los ejemplos anteriores, aplicamos la fórmula y tenemos que:</b>
-          p.text-center <b>NmE = 157 x 0,7 = 106</b>
+          p.text-center <b>NmE = 152 x 0,7 = 106</b>
       .row(titulo="Nivel Máximo de Existencias (NME)")
         .col-lg-2
           img(src='@/assets/curso/t3/f3.svg', alt='frasco de píldoras', style="width:250px;").m-auto
         .col-lg-10
-          p A diferencia del NmE, este cálculo representa la cantidad máxima de producto que debe haber en el inventario, con el fin de evitar que exceda el stock y comprometa los recursos financieros de la Institución.
+          p A diferencia del NmE, este cálculo representa la cantidad máxima de producto que debe haber en el inventario, con el fin de evitar que exceda el #[em stock] y comprometa los recursos financieros de la Institución.
           p.text-center <b>NME = CPM + (NmE x número de meses estimados para la compra)</b>
           p <b>Ejemplo práctico:</b> continuamos con los datos adquiridos en los puntos anteriores, teniendo presente que los meses estimados para la compra son un mes.
           p <b>Aplicando la fórmula:</b>
-          p.text-center <b>NME = 152 + (N106 x 1) = 262</b>
+          p.text-center <b>NME = 152 + (106 x 1) = 262</b>
       .row(titulo="Punto de Reposición (PR)")
         .col-lg-2
           img(src='@/assets/curso/t3/f4.svg', alt='gotero y brister', style="width:250px;").m-auto

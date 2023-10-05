@@ -145,12 +145,19 @@ $casiBlanco: #fafafa
 
 .contenedor3c
   background: white
-  border-radius: 1.5rem 1.5rem 1.5rem 0
+  border-radius: 1.5rem 1.5rem 0 1.5rem
   position: relative
   box-shadow: 0 0 15px rgba(0,0,0,.3)
   margin-top: 1rem
   &--color-primario
     background-color: #CDEDFC
+  
+.BG01
+  background-color: #CDEDFC
+  border-radius: 35px 35px 0 35px 
+  position: relative
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  margin-top: 1rem
 
 .fcp
   background-color: #81D4FA
@@ -247,10 +254,10 @@ $lista1: rgba(126,94,227,0.1) 0%, rgba(129,212,250,0.1) 100%
       z-index: 1
 
 .bloque-texto-d.color-primario:before , .bloque-texto-b.color-primario:before 
-    background-color: #dff4fd;
+  background-color: #dff4fd
 
 .tarjeta.color-acento-contenido * 
-    color: #12263F
+  color: #12263F
 
 
 
@@ -285,7 +292,7 @@ $tarjeta-dimension: 300px
     position: relative    
     top: 0 
     left: 0      
-    transition: all 0.45s 0s ease;
+    transition: all 0.45s 0s ease
     .tarjetaImg, .tarjetaTxt 
       display: flex
       flex-direction: column
@@ -323,3 +330,9 @@ $tarjeta-dimension: 300px
   @media screen and ( max-width: 991px )
     height: auto  
 
+.img-01
+  position: absolute
+  right: 100px
+  @media (max-width: $bp-max-md)
+    position: relative
+    right: 0

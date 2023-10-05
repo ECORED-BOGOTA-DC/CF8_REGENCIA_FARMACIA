@@ -37,7 +37,7 @@
     Separador
     #t_9_2.titulo-segundo.color-acento-contenido
       h2 9.2 Técnicas de estimación de precios
-    p.mb-5(data-aos="fade-right") Según Sangri Coral, A. (2016 pp. 18-19), esta variable, en algunas ocasiones es la más importante; el precio, ya sea por unidad o por grandes volúmenes, debe ser #[strong “el precio exacto”] a fin que se efectúen las compras siguientes, y debe basarse en los siguientes términos:
+    p.mb-5(data-aos="fade-right") Según Sangri Coral, A. (2016 pp. 18-19), esta variable, en algunas ocasiones es la más importante; el precio, ya sea por unidad o por grandes volúmenes, debe ser #[strong “el precio exacto”] a fin de que se efectúen las compras siguientes, y debe basarse en los siguientes términos:
     .row
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--cac")
