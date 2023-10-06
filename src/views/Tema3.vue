@@ -67,7 +67,7 @@
           p Este cálculo representa la cantidad mínima suficiente de producto que debe existir en el inventario, mientras llega un nuevo pedido, con el fin de evitar agotamientos que generen demanda insatisfecha.
           p.text-center <b>NmE = CPM X TR (expresado en meses)</b>
           p <b>Ejemplo práctico: partiendo de los ejemplos anteriores, aplicamos la fórmula y tenemos que:</b>
-          p.text-center <b>NmE = 152 x 0,7 = 106</b>
+          p.text-center <b>NmE = 152 x 0,7 = 106,4</b>
       .row(titulo="Nivel Máximo de Existencias (NME)")
         .col-lg-2
           img(src='@/assets/curso/t3/f3.svg', alt='frasco de píldoras', style="width:250px;").m-auto
@@ -76,7 +76,7 @@
           p.text-center <b>NME = CPM + (NmE x número de meses estimados para la compra)</b>
           p <b>Ejemplo práctico:</b> continuamos con los datos adquiridos en los puntos anteriores, teniendo presente que los meses estimados para la compra son un mes.
           p <b>Aplicando la fórmula:</b>
-          p.text-center <b>NME = 152 + (106 x 1) = 262</b>
+          p.text-center <b>NME = 152 + (106,4 x 1) = 258,4</b>
       .row(titulo="Punto de Reposición (PR)")
         .col-lg-2
           img(src='@/assets/curso/t3/f4.svg', alt='gotero y brister', style="width:250px;").m-auto
@@ -85,7 +85,8 @@
           p.text-center <b>Se puede expresar de dos formas:</b>
           p.text-center <b>PR = NmE + (CPM X TR)<br>PR = 2 X NmE</b>
           p.text-center <b>Aplicando la fórmula:</b>
-          p.text-center <b>PR = 106 + (152 X 0,7) = 212<br>PR = 2 X 106 = 212</b>
+          p.text-center <b>PR = 106,4 + (152 X 0,7) = 212,8<br>PR = 2 X 106,4 = 212,8</b>
+    
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Priorización de la compra

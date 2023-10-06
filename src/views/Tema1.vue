@@ -397,7 +397,7 @@
         h5 Figura 7.
         span Criterios para la valoración de proveedores
       figure
-        img(src="@/assets/curso/t1/f29.svg" alt="Muestra los Criterios para la valoración de proveedores, desde la atención del servicio, manejo de devoluciones, cumplimiento de especificaciones especificas técnicas, cumplimiento de características fisicoquímicas y microbiológicas, cumplimiento de especificaciones administrativas, oportunidad de la entrega e informe de la situación del pedido.").mb-4
+        img(src="@/assets/curso/t1/f29.svg" alt="Muestra los Criterios para la valoración de proveedores, desde la atención del servicio, manejo de devoluciones, cumplimiento de especificaciones técnicas, cumplimiento de características fisicoquímicas y microbiológicas, cumplimiento de especificaciones administrativas, oportunidad de la entrega e informe de la situación del pedido.").mb-4
         figcaption Nota. Sena(2021). Adaptado de: <a href="http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf" target="_blank">cendi.edu.co</a>
     .col-lg-10.mx-auto(data-aos="fade-left")
       .cajon.color-secundario.p-4

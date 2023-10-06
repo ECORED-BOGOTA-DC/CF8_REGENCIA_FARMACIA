@@ -8,7 +8,7 @@
       h1 Políticas financieras y comerciales
     figure(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/FWXq-BjMpAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FWXq-BjMpAQ?si=VVnz8xtu6ykqcdDu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
         
 </template>
 

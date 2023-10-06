@@ -192,7 +192,7 @@ export default {
     {
       tema: 'Definición de políticas',
       referencia:
-        'Dirección de planificación Institucional – Departamento de Panificación Institucional y Sectorial. (2022). <em>Guía para la elaboración de políticas institucionales</em>.',
+        'Dirección de planificación Institucional – Departamento de Planificación Institucional y Sectorial. (2022). <em>Guía para la elaboración de políticas institucionales</em>.',
       tipo: 'PDF',
       link:
         'https://www.mtss.go.cr/perfiles/lineamientos_circulares_directrices_politicas_internas/lineamientos-circulares-directrices-politicas%20internas/guia_politicas_institucionales_MTSS.pdf',
@@ -280,7 +280,8 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50762?page=17',
     },
     {
-      referencia: 'Vera, H. (2009). Buenas prácticas de abastecimiento.',
+      referencia:
+        'Harold Vera Marín. (2009). Buenas prácticas de abastecimiento.',
       link:
         'https://es.scribd.com/doc/23347297/MANUAL-DE-BUENAS-PRACTICAS-DE-ABASTECIMIENTOS',
     },

@@ -18,13 +18,13 @@
               i.fas.fa-quote-right.cac
             p.text-center “El conjunto de procedimientos y normas destinadas a garantizar el almacenamiento, transporte y distribución adecuada de materiales y productos farmacéuticos, a partir de la liberación de que son objeto después del proceso de fabricación, de manera que estos conserven la naturaleza y calidad deseadas cuando lleguen al consumidor final”
             h5.text-right -Vera, H., 2009, p.2
-      p(data-aos="fade-right") Para ampliar la información sobre este tema, visite el enlace que se encuentra en el material complementario.
+      p(data-aos="fade-right") Para ampliar la información sobre este tema, visite el enlace.
       .col-lg-6(data-aos="fade-left")
         a.anexo(href="https://es.scribd.com/doc/23347297/MANUAL-DE-BUENAS-PRACTICAS-DE-ABASTECIMIENTOS" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Enlace web.</b> Fuentes de abastecimiento
+            p <b>Enlace web.</b> Buenas prácticas de abastecimiento
 
 </template>
 
