@@ -257,13 +257,13 @@ export default {
     },
     {
       referencia:
-        'MINISTERIO DE PROTECCIÓN SOCIAL. (2007). Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. Resolución número 1403.',
+        'MINISTERIO DE PROTECCIÓN SOCIAL. (2007). Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. Resolución número 1403.<br>',
       link:
         'https://www.redjurista.com/Documents/resolucion_1403_de_2007_ministerio_de_la_proteccion_social.aspx#/',
     },
     {
       referencia:
-        'Osorio, E. (S.F). Procesos generales del servicio farmacéutico.',
+        'Osorio, E. (S.F). Procesos generales del servicio farmacéutico.<br>',
       link:
         'http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf',
     },
