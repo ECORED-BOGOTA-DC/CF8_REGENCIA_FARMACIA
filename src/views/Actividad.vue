@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Proceso de selección y adquisición de productos farmacéuticos
-        p.mb-4 Precisar términos para la selección y adquisición de productos farmacéuticos con la finalidad de prevenir enfermedades en pacientes 
+        p.mb-4 Precisar términos para la selección y adquisición de productos farmacéuticos con la finalidad de prevenir enfermedades en pacientes.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
